@@ -1,4 +1,4 @@
-package LeetCode;
+package LeetCodeSolutions;
 import java.util.Arrays;
 public class Question378 {
     public static void main(String[] args) {

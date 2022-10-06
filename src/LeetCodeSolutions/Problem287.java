@@ -1,4 +1,4 @@
-package LeetCode;
+package LeetCodeSolutions;
 
 public class Problem287 {
     public int findDuplicate(int[] nums) {
