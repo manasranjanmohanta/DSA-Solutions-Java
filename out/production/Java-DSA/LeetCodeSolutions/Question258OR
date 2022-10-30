@@ -1,0 +1,37 @@
+Approach-1
+             if(num == 0){
+                 return num;
+             }
+             else if(num % 9 == 0){
+                 return 9;
+             }
+             else {
+                 return num % 9;
+             }
+
+Approach-2 (if you think the code is big but it is the best approach and 100% faster )
+                if(num == 0){
+                        return num;
+                    }
+
+                    while(num > 0){
+                    if(num == 0 || num == 1 || num == 2 || num == 3 || num == 4 || num == 5
+                    || num == 6 || num == 7 || num == 8 || num == 9){
+                        return num;
+                    }
+                    else{
+                        num = findSum(num);
+                    }
+                    }
+                    return num;
+                }
+
+                public int findSum(int num){
+                    int sum = 0;
+                    while(num > 0){
+                        int digit = num % 10;
+                        sum += digit;
+                        num = num / 10;
+                    }
+                    return sum;
+                }
