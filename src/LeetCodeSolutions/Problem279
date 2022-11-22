@@ -1,0 +1,18 @@
+class Solution {
+    public int numSquares(int n) {
+       // Dynamic programming
+        int[] dp= new int[n+1];
+
+        // Base case
+        dp[0] = 0;
+
+        // Successor case
+        for (int k = 1; k <= n; k++) {
+            dp[k] = k; // First step for using the min formula
+            for (int j = 1; j*j <= k; j++) {
+                if (1 + dp[k - j*j] < dp[k]) dp[k] = 1 + dp[k - j*j];
+            }
+        }
+        return dp[n];
+    }
+}
