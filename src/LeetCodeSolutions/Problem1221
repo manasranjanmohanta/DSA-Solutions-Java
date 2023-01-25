@@ -1,0 +1,10 @@
+1221. Split a String in Balanced Strings
+
+1.one line solution
+class Solution {
+    public int balancedStringSplit(String s) {
+
+    }
+}
+
+2.another solution
