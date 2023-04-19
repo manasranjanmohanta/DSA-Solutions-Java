@@ -1,0 +1,21 @@
+705. Design HashSet
+
+class MyHashSet {
+    private HashMap map;
+    private static final Object value = new Object();
+    public MyHashSet() {
+        map = new HashMap();
+    }
+
+    public void add(int key) {
+        map.put(key, value);
+    }
+
+    public void remove(int key) {
+        map.remove(key);
+    }
+
+    public boolean contains(int key) {
+        return map.containsKey(key);
+    }
+}

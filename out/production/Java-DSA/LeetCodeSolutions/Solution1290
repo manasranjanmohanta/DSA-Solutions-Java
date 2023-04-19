@@ -1,0 +1,29 @@
+1290. Convert Binary Number in a Linked List to Integer
+
+class Solution {
+    public int getDecimalValue(ListNode head) {
+        String number = "";
+        ListNode temp = head;
+        while(temp != null){
+            number += temp.val;
+            temp = temp.next;
+        }
+        int integer = Integer.parseInt(number, 2);
+        return integer;
+    }
+}
+
+
+optimized approach beats 100%
+
+class Solution {
+    public int getDecimalValue(ListNode head) {
+       int sum = 0;
+       while(head != null){
+           sum = sum * 2;
+           sum += head.val;
+           head = head.next;
+       }
+       return sum;
+    }
+}
