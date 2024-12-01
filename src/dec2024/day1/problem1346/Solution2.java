@@ -5,7 +5,7 @@ import java.util.HashMap;
 public class Solution2 {
     public static void main(String[] args) {
         int[] arr = {10, 2, 5, 3};
-        System.out.println();
+        System.out.println(checkIfExist(arr));
     }
 
     public static boolean checkIfExist(int[] arr) {
