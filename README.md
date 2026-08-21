@@ -11,6 +11,7 @@
 | ------- |
 | [0001-two-sum](https://github.com/manasranjanmohanta/DSA-Solutions-Java/tree/master/0001-two-sum) |
 | [0014-longest-common-prefix](https://github.com/manasranjanmohanta/DSA-Solutions-Java/tree/master/0014-longest-common-prefix) |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/manasranjanmohanta/DSA-Solutions-Java/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0896-monotonic-array](https://github.com/manasranjanmohanta/DSA-Solutions-Java/tree/master/0896-monotonic-array) |
 ## Hash Table
 |  |
@@ -29,6 +30,7 @@
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/manasranjanmohanta/DSA-Solutions-Java/tree/master/0005-longest-palindromic-substring) |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/manasranjanmohanta/DSA-Solutions-Java/tree/master/0026-remove-duplicates-from-sorted-array) |
 ## Dynamic Programming
 |  |
 | ------- |
