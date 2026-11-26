@@ -10,4 +10,6 @@
 select E.name as Employee
 from Employee E
 join Employee M 
-on E.managerId = M.id and E.salary > M.salary;
+on E.managerId is not NULL
+   and E.managerId = M.id 
+   and E.salary > M.salary
