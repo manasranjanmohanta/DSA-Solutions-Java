@@ -7,9 +7,7 @@
 --                 where M.id = E.managerId);
 
 # 2. USING SELF JOIN
-select E.name as Employee
-from Employee E
-join Employee M 
-on E.managerId is not NULL
-   and E.managerId = M.id 
-   and E.salary > M.salary
+select e.name as employee 
+from employee e
+join employee m
+on e.managerId = m.id and e.salary > m.salary
